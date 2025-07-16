@@ -1,0 +1,33 @@
+body{
+    font-family: "Roboto", sans-serif;
+    display: block;
+    justify-content: center;
+}
+.postcard{
+    max-width: 400px;
+    background: gray;
+    border-radius: 5px;
+}
+.post-header{
+    display: flex;
+}
+.name{
+    display: block;
+}
+.post-img img{
+    max-width: 400px;
+}
+.icons{
+    padding: 10px;
+    font-size: 25px;
+    display: flex;
+}
+.post-body{
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    padding-left: 280px;
+}

@@ -1,33 +1,49 @@
 body{
     font-family: "Roboto", sans-serif;
-    display: block;
+    display: flex;
+    background-color: black;
+    font-size: 15px;
     justify-content: center;
+    align-items: center;
+}
+p{
+    margin: 0;
 }
 .postcard{
     max-width: 400px;
-    background: gray;
+    height: 500px;
+    background: white;
     border-radius: 5px;
 }
 .post-header{
     display: flex;
+    padding: 8px;
+    height: 40px;   
+    align-items: center;
 }
 .name{
-    display: block;
+    font-size: 15px;
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 30px;
 }
 .post-img img{
     max-width: 400px;
 }
 .icons{
-    padding: 10px;
-    font-size: 25px;
+    font-size: 30px;
     display: flex;
 }
 .post-body{
     display: block;
+    padding: 8px;
 }
-.left{
-    float: left;
+.text{
+    padding-top: 15px;
+}
+i, .post-body p{
+    padding: 5px;
 }
 .right{
-    padding-left: 280px;
+    padding-left: 220px;
 }
